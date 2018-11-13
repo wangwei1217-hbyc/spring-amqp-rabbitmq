@@ -56,10 +56,10 @@ public class AutoDeclareConfig {
         return new HeadersExchange("spring.headers.exchange",true,false,null);
     }
 
-    @Bean
-    public FanoutExchange fExchange1(){
-        return new FanoutExchange("amq.fanout.exchange",true,false,null);
-    }
+//    @Bean
+//    public FanoutExchange fExchange1(){
+//        return new FanoutExchange("amq.fanout.exchange",true,false,null);
+//    }
 
     @Bean
     public List<Exchange> listExchange(){
